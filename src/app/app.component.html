@@ -1,0 +1,147 @@
+<html lang="en">
+  <head> </head>
+  <body>
+    <section class="h-100" style="background: rgb(60, 177, 148)">
+      <section class="img-bg-container">
+        <!-- Header part start here -->
+        <header class="w-100">
+          <div class="header-bg"></div>
+          <div
+            class="text-uppercase text-center py-5 text-white header-text font"
+          >
+            result of the test
+          </div>
+        </header>
+
+        <!-- Header part end here -->
+        <section class="container p-0">
+          <!-- Icon section start here -->
+          <section
+            class="d-flex justify-content-center align-items-center flex-wrap"
+          >
+            <section
+              class="rounded-circle icon-circle d-flex flex-coumn mx-2 mb-3"
+              title="Never"
+            >
+              <section
+                class="d-flex justify-content-center align-items-center w-100 flex-column "
+              >
+                <div class="icon fa fa-calendar"></div>
+                <div class="text-center circle-text">Never</div>
+              </section>
+            </section>
+            <section
+              class="rounded-circle icon-circle d-flex flex-coumn mx-2 mb-3"
+              title="Occasinoally"
+            >
+              <section
+                class="d-flex justify-content-center align-items-center w-100 flex-column"
+              >
+                <div class="icon fa fa-calendar"></div>
+                <div class="text-center circle-text">Occasionally</div>
+              </section>
+            </section>
+            <section
+              class="rounded-circle icon-circle d-flex flex-coumn mx-2 mb-3"
+              title="4 hours"
+            >
+              <section
+                class="d-flex justify-content-center align-items-center w-100 flex-column"
+              >
+                <div class="icon fa fa-clock-o"></div>
+                <div class="text-center circle-text">4 hours</div>
+              </section>
+            </section>
+            <section
+              class="rounded-circle icon-circle d-flex flex-coumn mx-2 mb-3"
+              title="Yearly"
+            >
+              <section
+                class="d-flex justify-content-center align-items-center w-100 flex-column "
+              >
+                <div class="icon fa fa-comment"></div>
+                <div class="text-center circle-text">Yearly</div>
+              </section>
+            </section>
+            <section
+              class="rounded-circle icon-circle d-flex flex-coumn mx-2 mb-3"
+              title="Never"
+            >
+              <section
+                class="d-flex justify-content-center align-items-center w-100 flex-column"
+              >
+                <div class="icon fa fa-calendar"></div>
+                <div class="text-center circle-text">Never</div>
+              </section>
+            </section>
+          </section>
+          <!-- Icon section end here -->
+          <!-- Progressbar section start here -->
+          <section class="progress-container">
+            <section class="progress-bar-border">
+              <div class="progress">
+                <i
+                  class="fas fa-arrow-alt-circle-down"
+                  style="font-size:27px;color:red"
+                ></i>
+                <div class="progress-bar bg-light" style="width: 35%"></div>
+                <div
+                  class="progress-bar bg-accent-light"
+                  style="width: 35%"
+                ></div>
+                <div class="progress-bar" style="width: 30%"></div>
+              </div>
+              <div class="slidecontainer">
+                <input
+                  type="range"
+                  min="1"
+                  max="100"
+                  [value]="sliderValue"
+                  class="slider"
+                  id="myRange"
+                />
+              </div>
+            </section>
+            <section class="d-flex">
+              <div
+                class="text-white progress-text text-uppercase w-35 py-2"
+                title="Less Relevant"
+              >
+                Less Relevant
+              </div>
+              <div
+                class="text-white progress-text text-uppercase w-35 py-2"
+                title="Relevant"
+              >
+                Relevant
+              </div>
+              <div
+                class="text-white progress-text text-uppercase w-30 py-2"
+                title="Very Relevant"
+              >
+                very Relevant
+              </div>
+            </section>
+          </section>
+          <!-- Progressbar section end here -->
+          <!-- Button section start here -->
+          <section class="text-center pb-3">
+            <button
+              type="button"
+              class="text-uppercase text-white btn-rounded btn-rounded-lg"
+              title="Try Again"
+              (click)="myClickFunction()"
+            >
+              Try again
+              <span
+                class="fa fa-chevron-right pl-2 pt-1"
+                style="color:red"
+              ></span>
+            </button>
+          </section>
+          <!-- Button section end here -->
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
